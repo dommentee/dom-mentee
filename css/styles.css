@@ -16,13 +16,6 @@ body {
   height: 100%;
   position: fixed; }
 
-.main-content {
-  width: 100%;
-  height: 100%;
-  top: 95%;
-  position: relative;
-  background-color: teal; }
-
 .slide-container {
   height: 100%;
   width: 100%;
@@ -59,5 +52,15 @@ body {
     opacity: .5; }
   to {
     opacity: 1; } }
+.main-content {
+  width: 100%;
+  height: 80%;
+  top: 100%;
+  position: relative;
+  background-color: teal; }
+  .main-content .content-wrap {
+    background-color: pink;
+    height: 100%;
+    padding: 5%; }
 
 /*# sourceMappingURL=styles.css.map */
