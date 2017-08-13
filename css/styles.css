@@ -26,7 +26,7 @@ body {
     display: none; }
   .slide-container .padded-div {
     padding: 7%;
-    background-color: red; }
+    height: 100%; }
   .slide-container .prev, .slide-container .next {
     cursor: pointer;
     position: absolute;
@@ -51,16 +51,16 @@ body {
   to {
     opacity: 1; } }
 #slide-one {
+  height: 100%;
   background-color: purple; }
   #slide-one .intro {
     width: 100%;
     background-color: green; }
   #slide-one .name-logo {
-    background-color: grey;
-    display: flex;
-    align-items: center; }
-    #slide-one .name-logo span {
-      font-size: 3em; }
+    background-color: pink;
+    width: 50%; }
+    #slide-one .name-logo .about {
+      color: lime; }
 
 #slide-two {
   background-color: silver; }

@@ -34,7 +34,7 @@ body {
 
 	.padded-div {
 		padding: 7%;
-		background-color: red;
+		height: 100%;
 
 	}
 
@@ -73,6 +73,7 @@ body {
 }
 
 #slide-one {
+	height: 100%;
 	background-color: purple;
 
 	.intro {
@@ -81,15 +82,14 @@ body {
 	}
 
 	.name-logo {
-		background-color: grey;
-		display: flex;
-		align-items: center;
+		background-color: pink;
+		width: 50%;
 
-
-
-		span {
-			font-size: 3em;
+		.about {
+			color: lime;
 		}
+
+
 	}
 
 }
