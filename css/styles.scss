@@ -35,13 +35,11 @@ body {
 	.padded-div {
 		padding: 5%;
 		height: 100%;
-
 	}
 
 	.content {
 		width: 100%;
 		height: 80%;
-		display: flex;
 	}
 
 	.prev, .next {
@@ -80,41 +78,51 @@ body {
 
 #slide-one {
 	height: 100%;
-	background-color: purple;
+	background: -webkit-linear-gradient(left, blue 29%, green 25%);
+
+	.content {
+		display: flex;
+
+	}
+
+	.topic-wrap {
+		width: 40%;
+		text-align: right;
+
+		.halfStyle {
+			font-size: 20em;
+			position: relative;
+    		color: black; 
+    		overflow:hidden;
+    		white-space: pre; 
+		}
+
+		.helfStyle:before {
+			display: block;
+			z-index: 1;
+			position: absolute;
+			overflow: hidden;
+			color: red;
+		}
+
+	}
 
 	.about-me {
-
-		h1 {
-			font-size: 3em;
-			color: red;
-			padding: 0 0 30px 0;
-			border-bottom: 2px solid #000;
-			display: inline-block;
-		}
+		width: 60%;
 
 		p {
-			margin-top: 10%;
-			width: 40%;
-			float: left;
-		}
-
-		span {
-			color: #fff;
-			font-size: 20em;
-			margin: 0 auto;
+			width: 80%;
+			margin: 45% auto;
 
 		}
 
 
 	}
-
 }
 
 #slide-two {
 	background-color: silver;
 }
-
-
 
 .main-content {
     width: 100%;

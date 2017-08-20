@@ -29,8 +29,7 @@ body {
     height: 100%; }
   .slide-container .content {
     width: 100%;
-    height: 80%;
-    display: flex; }
+    height: 80%; }
   .slide-container .prev, .slide-container .next {
     cursor: pointer;
     position: absolute;
@@ -57,21 +56,29 @@ body {
 /*end of the main containor that hold slides*/
 #slide-one {
   height: 100%;
-  background-color: purple; }
-  #slide-one .about-me h1 {
-    font-size: 3em;
-    color: red;
-    padding: 0 0 30px 0;
-    border-bottom: 2px solid #000;
-    display: inline-block; }
-  #slide-one .about-me p {
-    margin-top: 10%;
+  background: -webkit-linear-gradient(left, blue 29%, green 25%); }
+  #slide-one .content {
+    display: flex; }
+  #slide-one .topic-wrap {
     width: 40%;
-    float: left; }
-  #slide-one .about-me span {
-    color: #fff;
-    font-size: 20em;
-    margin: 0 auto; }
+    text-align: right; }
+    #slide-one .topic-wrap .halfStyle {
+      font-size: 20em;
+      position: relative;
+      color: black;
+      overflow: hidden;
+      white-space: pre; }
+    #slide-one .topic-wrap .helfStyle:before {
+      display: block;
+      z-index: 1;
+      position: absolute;
+      overflow: hidden;
+      color: red; }
+  #slide-one .about-me {
+    width: 60%; }
+    #slide-one .about-me p {
+      width: 80%;
+      margin: 45% auto; }
 
 #slide-two {
   background-color: silver; }
