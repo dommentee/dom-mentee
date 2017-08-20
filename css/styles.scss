@@ -78,7 +78,7 @@ body {
 
 #slide-one {
 	height: 100%;
-	background: -webkit-linear-gradient(left, blue 29%, green 25%);
+	background: -webkit-linear-gradient(left, blue, red 28.95%, green 25%);
 
 	.content {
 		display: flex;
@@ -92,23 +92,29 @@ body {
 		.halfStyle {
 			font-size: 20em;
 			position: relative;
-    		color: black; 
-    		overflow:hidden;
-    		white-space: pre; 
+    		overflow: hidden;
+    		white-space: hidden; 
+    		display: inline;
 		}
 
-		.helfStyle:before {
+		.hs-vertical-half:before {
 			display: block;
+			display: inline;
 			z-index: 1;
 			position: absolute;
 			overflow: hidden;
-			color: red;
+			color: green;
+		}
+
+		.hs-vertical-half:after {
+			color: pink;
 		}
 
 	}
 
 	.about-me {
 		width: 60%;
+
 
 		p {
 			width: 80%;

@@ -56,7 +56,7 @@ body {
 /*end of the main containor that hold slides*/
 #slide-one {
   height: 100%;
-  background: -webkit-linear-gradient(left, blue 29%, green 25%); }
+  background: -webkit-linear-gradient(left, blue, red 28.95%, green 25%); }
   #slide-one .content {
     display: flex; }
   #slide-one .topic-wrap {
@@ -65,15 +65,18 @@ body {
     #slide-one .topic-wrap .halfStyle {
       font-size: 20em;
       position: relative;
-      color: black;
       overflow: hidden;
-      white-space: pre; }
-    #slide-one .topic-wrap .helfStyle:before {
+      white-space: hidden;
+      display: inline; }
+    #slide-one .topic-wrap .hs-vertical-half:before {
       display: block;
+      display: inline;
       z-index: 1;
       position: absolute;
       overflow: hidden;
-      color: red; }
+      color: green; }
+    #slide-one .topic-wrap .hs-vertical-half:after {
+      color: pink; }
   #slide-one .about-me {
     width: 60%; }
     #slide-one .about-me p {
