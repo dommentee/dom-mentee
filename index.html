@@ -4,22 +4,26 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
 	<link href="css/styles.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
 	<link href="css/halfstyle.css" rel="stylesheet">
 	<title>DOM::MENTEE</title>	
 </head>
 <body>
 
-   	<div class="home">
+	<div class="home">
 
-   		<div class="slide-container">
+		<div class="slide-container">
 
-			<div class="mySlides fade" id="slide-one">
+			<!--<div class="mySlides fade" id="slide-one">
 
-				<div class="padded-div">
+				<div class="pic"></div>
 
-					<div class="content">
+				<div class="padded-container">
 
-						<div class="topic-wrap">
+					<div class="topic-wrap">
+
+						<div class="topic">
+
 							<span class="halfStyle hs-vertical-half" data-content="A">A</span>bout:
 
 						</div>
@@ -27,99 +31,91 @@
 						<div class="about-me">
 
 							<p>
-								I am a frontend designer and developer. Though based in the Boston area, I can travel for contracts anywhere in North America. I prefer clean custom builds, unique layouts and creating unique designs that push the boundaries from the ground up.
+								I am a frontend designer and developer. Though based in the Boston area, I can travel for contracts anywhere in North America. I prefer clean custom builds, unique layouts and creating unique designs that push the boundaries from the ground.	
 							</p>
 							
 						</div>
 
-					</div>
+					</div>	
 
 				</div>
+			
 
-	
-			</div> 
+			</div><!--end of slide one</-->
 
-			<!--<div class="mySlides fade" id="slide-two">
+			<div class="mySlides fade" id="slide-two">
 
-				<div class="padded-div">
-
-					two
-					
+				<div class="padded-container">
+					hello
 				</div>
-			
-			</div> 
 
-			<div class="mySlides fade" id="slide-three">
+				
 
-				<div class="padded-div">
+			</div>
 
-					three
-					
-				</div>
-			
-			</div> 
+			<!--<div class="mySlides fade" id="slide-three">
 
-			<div class="mySlides fade" id="slide-four">
+				three
 
-				<div class="padded-div">
+			</div></-->
 
-					four
-					
-				</div>
-			
-			</div>/-->
+			<div class="selector">
 
-			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  			<a class="next" onclick="plusSlides(1)">&#10095;</a>	
+  				<span class="dot" onclick="currentSlide(1)"></span> 
+  				<span class="dot" onclick="currentSlide(2)"></span> 
+  				<span class="dot" onclick="currentSlide(3)"></span> 
 
-		</div>
+  			</div>	
 
-		<div class="float-fix"></div>
-			
-   	</div><!--end of slideshow/-->
+		</div><!--end of the container/-->
 
-   	<script>
-		var slideIndex = 1;
-		showSlides(slideIndex);
+	</div><!--end of home page/-->
 
-		function plusSlides(n) {
- 	 	showSlides(slideIndex += n);
-		}
-		function currentSlide(n) {
-  		showSlides(slideIndex = n);
-		}
-		function showSlides(n) {
+	<script>
+	var slideIndex = 1;
+	showSlides(slideIndex);
+
+	function currentSlide(n) {
+ 	showSlides(slideIndex = n);
+	}
+
+	function showSlides(n) {
   		var i;
   		var slides = document.getElementsByClassName("mySlides");
+  		var dots = document.getElementsByClassName("dot");
   		if (n > slides.length) {slideIndex = 1}    
   		if (n < 1) {slideIndex = slides.length}
   		for (i = 0; i < slides.length; i++) {
-      	slides[i].style.display = "none";  
+      		slides[i].style.display = "none";  
+  		}
+  		for (i = 0; i < dots.length; i++) {
+      		dots[i].className = dots[i].className.replace(" active", "");
   		}
   		slides[slideIndex-1].style.display = "block";  
-		}
-		autoSlide();
-		function autoSlide() {
-			var i;
-			var slides = document.getElementsByClassName("mySlides");
-		  		for (i = 0; i < slides.length; i++) {
-     	 	slides[i].style.display = "none";  
-  			}
-  			if (slideIndex > slides.length) {slideIndex = 1} 
-  			slides[slideIndex-1].style.display = "block";  
+  		dots[slideIndex-1].className += " active";
+	}
+	autoSlide();
+	function autoSlide() {
+		var i;
+		var dots = document.getElementsByClassName("dot");
+		var slides = document.getElementsByClassName("mySlides");
+		  	for (i = 0; i < slides.length; i++) {
+     		slides[i].style.display = "none";  
+  		}
+  		for (i = 0; i < dots.length; i++) {
+  			dots[i].className = dots[i].className.replace(" active", "");
+  		}
+  		if (slideIndex > slides.length) {slideIndex = 1} 
+  			slides[slideIndex-1].style.display = "block"; 
+  			dots[slideIndex-1].className += " active"; 
   			slideIndex++;
 			setTimeout(autoSlide, 6000);
-	  	}
-	</script><!--script for the slideshow/-->
+	}
+	</script><!--end of script for automatic slideshow</-->
 
-   <!--<div class="main-content">
-
-    	<div class="content-wrap">
-
-			I am a frontend designer and developer. Though based in the Boston area, I can travel for contracts anywhere in North America. I prefer clean custom builds, unique layouts and creating unique designs that push the boundaries from the ground up.							
-		</div>
-
-    </div></-->
+	<!--<div class="main-content">
+		hello
+	</div>/-->
 
 	
 </body>
