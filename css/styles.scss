@@ -141,10 +141,72 @@ body {
 
 		}
 	}
-}
+}/*end of slide-one css edditing*/
 
 #slide-two {
-	background-color: lime;
+	height: 100%;
+
+	.approach {
+		background-color: red;
+		width: 50%;
+		height: 100%;
+		float: left;
+
+		.halfStyle {
+			font-size: 15em;
+			position: relative;
+			overflow: hidden;
+    		white-space: pre; 
+    		display: inline;
+		}
+
+		.hs-vertical-half:before {
+			display: block;
+			display: inline;
+			z-index: 1;
+			position: absolute;
+			overflow: hidden;
+			color: #fff;
+
+		}
+
+		.hs-vertical-half:after {
+			color: blue;
+		}
+
+		p {
+			width: 90%;
+			margin: 0 auto;
+		
+		
+		}
+
+	}
+
+	#toolkit {
+		background-color: teal;
+
+		.halfStyle { 	
+    		display: inline;
+    		margin-right: -10%;
+		}
+
+		.hs-vertical-half:before {
+			color: orange;
+
+		}
+
+		.hs-vertical-half:after {
+			color: grey;
+		}
+
+		.kit-wrap {
+			background-color: green;
+			width: 90%;
+			margin: 0 auto;
+		}
+	}
+
 }
 
 

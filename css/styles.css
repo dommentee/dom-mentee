@@ -102,8 +102,45 @@ body {
     #slide-one .about-me p {
       margin-top: 48%; }
 
+/*end of slide-one css edditing*/
 #slide-two {
-  background-color: lime; }
+  height: 100%; }
+  #slide-two .approach {
+    background-color: red;
+    width: 50%;
+    height: 100%;
+    float: left; }
+    #slide-two .approach .halfStyle {
+      font-size: 15em;
+      position: relative;
+      overflow: hidden;
+      white-space: pre;
+      display: inline; }
+    #slide-two .approach .hs-vertical-half:before {
+      display: block;
+      display: inline;
+      z-index: 1;
+      position: absolute;
+      overflow: hidden;
+      color: #fff; }
+    #slide-two .approach .hs-vertical-half:after {
+      color: blue; }
+    #slide-two .approach p {
+      width: 90%;
+      margin: 0 auto; }
+  #slide-two #toolkit {
+    background-color: teal; }
+    #slide-two #toolkit .halfStyle {
+      display: inline;
+      margin-right: -10%; }
+    #slide-two #toolkit .hs-vertical-half:before {
+      color: orange; }
+    #slide-two #toolkit .hs-vertical-half:after {
+      color: grey; }
+    #slide-two #toolkit .kit-wrap {
+      background-color: green;
+      width: 90%;
+      margin: 0 auto; }
 
 .main-content {
   background-color: teal;
