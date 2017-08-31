@@ -18,7 +18,7 @@
     z-index:1;
     position:absolute;
     top:0;
-    width: 50%;
+    width: 30%;
     content: attr(data-content); /* dynamic content for the pseudo element */
     pointer-events: none; /* so the base char is selectable by mouse and the click handlers bound on it will fire */
     overflow:hidden;
@@ -44,8 +44,6 @@
     content: attr(data-content); /* dynamic content for the pseudo element */
     overflow:hidden;
     pointer-events: none; /* so the base char is selectable by mouse and the click handlers bound on it will fire */
-    color: #f00; /* for demo purposes */
-
 }
 .halfStyle.hs-vertical-half:after { /* creates the right part */
     display:block;
@@ -58,7 +56,7 @@
     content: attr(data-content); /* dynamic content for the pseudo element */
     overflow:hidden;
     pointer-events: none; /* so the base char is selectable by mouse and the click handlers bound on it will fire */
-    color: #000; /* for demo purposes */
+ 
 }
 /* end half-style hs-vertical-half */
 
