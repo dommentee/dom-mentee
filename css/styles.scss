@@ -153,7 +153,7 @@ body {
 		float: left;
 
 		.halfStyle {
-			font-size: 9em;
+			font-size: 7em;
 			position: relative;
 			overflow: hidden;
     		white-space: pre; 
@@ -188,7 +188,7 @@ body {
 
 		.halfStyle { 	
     		display: inline;
-    		margin-right: -6%;
+    		margin-right: -5%;
 		}
 
 		.hs-vertical-half:before {
@@ -202,17 +202,27 @@ body {
 
 
 		.kits {
-			width: 30%;
+			width: 25%;
 			margin: 1% 1%;
 			float: left;
 			background-color: grey;
 			text-align: center;
+			padding: 8px 0;
+
+			h1 {
+				font-size: 2.5em;
+			}
 		}
 
 		.logo {
 			background-color: red;
 			display: inline-block;
-			font-width: bolder;
+			font-size: 1.5em;
+			font-weight: bolder;
+			width: 25%;
+
+
+
 		}
 
 	}

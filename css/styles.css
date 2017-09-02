@@ -111,7 +111,7 @@ body {
     height: 100%;
     float: left; }
     #slide-two .approach .halfStyle {
-      font-size: 9em;
+      font-size: 7em;
       position: relative;
       overflow: hidden;
       white-space: pre;
@@ -132,21 +132,26 @@ body {
     background-color: teal; }
     #slide-two #toolkit .halfStyle {
       display: inline;
-      margin-right: -6%; }
+      margin-right: -5%; }
     #slide-two #toolkit .hs-vertical-half:before {
       color: orange; }
     #slide-two #toolkit .hs-vertical-half:after {
       color: grey; }
     #slide-two #toolkit .kits {
-      width: 30%;
+      width: 25%;
       margin: 1% 1%;
       float: left;
       background-color: grey;
-      text-align: center; }
+      text-align: center;
+      padding: 8px 0; }
+      #slide-two #toolkit .kits h1 {
+        font-size: 2.5em; }
     #slide-two #toolkit .logo {
       background-color: red;
       display: inline-block;
-      font-width: bolder; }
+      font-size: 1.5em;
+      font-weight: bolder;
+      width: 25%; }
 
 .main-content {
   background-color: teal;
