@@ -8,7 +8,8 @@ html {
 
 body {
   height: 100%;
-  font-family: "Work Sans", georgia, arial, sans-serif; }
+  font-family: "Work Sans", georgia, arial, sans-serif;
+  color: #303030; }
 
 .float-fix {
   clear: both; }
@@ -73,8 +74,7 @@ body {
   #slide-one .topic-wrap {
     display: flex;
     height: 100%;
-    font-size: 1.05em;
-    color: #FFF; }
+    font-size: 1.05em; }
   #slide-one .topic {
     width: 40%;
     text-align: right; }
@@ -104,8 +104,10 @@ body {
 
 /*end of slide-one css edditing*/
 #slide-two {
-  height: 100%; }
+  height: 100%;
+  background: -webkit-linear-gradient(left, #D1D1D1, #D4D4D4); }
   #slide-two .approach {
+    background: -webkit-linear-gradient(right, #FF4231, #FF2F31);
     background-color: red;
     width: 45%;
     height: 100%;
@@ -122,28 +124,34 @@ body {
       z-index: 1;
       position: absolute;
       overflow: hidden;
-      color: #fff; }
+      color: #1C3366; }
     #slide-two .approach .hs-vertical-half:after {
-      color: blue; }
+      color: #fff; }
     #slide-two .approach p {
       width: 90%;
+      float: right;
       margin: 5% auto; }
   #slide-two #toolkit {
-    background-color: teal;
+    background: -webkit-linear-gradient(left, #3B9DC4, #4C9DC4);
+    background-color: #4C9DC4;
     width: 55%; }
     #slide-two #toolkit .halfStyle {
       display: inline;
       margin-right: -6%; }
     #slide-two #toolkit .hs-vertical-half:before {
-      color: orange; }
+      color: #fff;
+      opacity: .7; }
     #slide-two #toolkit .hs-vertical-half:after {
-      color: grey; }
+      color: #FF4231; }
     #slide-two #toolkit .kits {
       width: 22%;
       margin: 1%;
       float: left;
-      background-color: grey;
+      background: -webkit-linear-gradient(left, #D1D1D1, #D4D4D4);
+      background-color: #D4D4D4;
       text-align: center;
+      border: 2px solid #383838;
+      border-radius: 3px;
       padding: 9px 0; }
       #slide-two #toolkit .kits h1 {
         font-size: 2.2em;

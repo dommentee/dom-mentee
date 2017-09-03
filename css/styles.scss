@@ -11,6 +11,7 @@ html {
 body {
 	height: 100%;
 	font-family: "Work Sans", georgia, arial, sans-serif;
+	color: #303030;
 }
 
 .float-fix {
@@ -92,7 +93,6 @@ body {
 
 #slide-one {
 	height: 100%;
-	//background: -webkit-linear-gradient(left, #FF4B1F, #FF442D 50%, #00265E, #002442 50%);
 	background: -webkit-linear-gradient(left, #00858F, #00A48F);	
 	background-color: #00858F;
 
@@ -100,7 +100,6 @@ body {
 		display: flex;
 		height: 100%;
 		font-size: 1.05em;
-		color: #FFF;
 	}
 
 	.topic {
@@ -145,8 +144,10 @@ body {
 
 #slide-two {
 	height: 100%;
+	background: -webkit-linear-gradient(left, #D1D1D1, #D4D4D4);
 
 	.approach {
+		background: -webkit-linear-gradient(right, #FF4231, #FF2F31);
 		background-color: red;
 		width: 45%;
 		height: 100%;
@@ -166,16 +167,16 @@ body {
 			z-index: 1;
 			position: absolute;
 			overflow: hidden;
-			color: #fff;
-
+			color: #1C3366;
 		}
 
 		.hs-vertical-half:after {
-			color: blue;
+			color: #fff;
 		}
 
 		p {
 			width: 90%;
+			float: right;
 			margin: 5% auto;
 		
 		
@@ -184,7 +185,8 @@ body {
 	}
 
 	#toolkit {
-		background-color: teal;
+		background: -webkit-linear-gradient(left, #3B9DC4, #4C9DC4);
+		background-color: #4C9DC4;
 		width: 55%;
 
 		.halfStyle { 	
@@ -193,12 +195,13 @@ body {
 		}
 
 		.hs-vertical-half:before {
-			color: orange;
+			color: #fff;
+			opacity: .7;
 
 		}
 
 		.hs-vertical-half:after {
-			color: grey;
+			color: #FF4231;
 		}
 
 
@@ -206,9 +209,13 @@ body {
 			width: 22%;
 			margin: 1%;
 			float: left;
-			background-color: grey;
+			background: -webkit-linear-gradient(left, #D1D1D1, #D4D4D4);
+			background-color: #D4D4D4;
 			text-align: center;
+			border: 2px solid #383838;
+			border-radius: 3px;
 			padding: 9px 0;
+
 
 			h1 {
 				font-size: 2.2em;
