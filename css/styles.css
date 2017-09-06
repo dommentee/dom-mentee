@@ -104,6 +104,7 @@ body {
 
 /*end of slide-one css edditing*/
 #slide-two {
+  /*start of slide-two*/
   height: 100%;
   background: -webkit-linear-gradient(left, #D1D1D1, #D4D4D4); }
   #slide-two .approach {
@@ -159,6 +160,25 @@ body {
         margin-bottom: 10%;
         border-radius: 3px;
         background-repeat: no-repeat; }
+
+/*end of slide-two*/
+#slide-three .pannel {
+  background-color: red;
+  width: 15%;
+  height: 70%;
+  float: left; }
+#slide-three .mentee {
+  height: 60%;
+  background-color: grey;
+  position: relative;
+  right: 5%;
+  top: 30%; }
+#slide-three .contact-warp {
+  display: inline-block;
+  height: 100%;
+  width: 70%;
+  float: right;
+  background-color: yellow; }
 
 .main-content {
   background-color: teal;
