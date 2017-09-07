@@ -171,14 +171,35 @@ body {
   height: 60%;
   background-color: grey;
   position: relative;
-  right: 5%;
+  right: 10%;
   top: 30%; }
-#slide-three .contact-warp {
+#slide-three .closing {
   display: inline-block;
   height: 100%;
   width: 70%;
-  float: right;
-  background-color: yellow; }
+  float: right; }
+  #slide-three .closing .dom {
+    width: 60%;
+    height: 70%;
+    float: left; }
+  #slide-three .closing .domspic {
+    background-color: blue;
+    width: 40%; }
+  #slide-three .closing .greeting {
+    background-color: orange; }
+  #slide-three .closing .contacts {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center; }
+  #slide-three .closing .reachby {
+    width: 33%;
+    padding: 10px 0;
+    background-color: red; }
+  #slide-three .closing .email {
+    margin-left: auto;
+    order: 2; }
 
 .main-content {
   background-color: teal;
