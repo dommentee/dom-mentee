@@ -166,7 +166,9 @@ body {
   background-color: red;
   width: 12%;
   height: 70%;
-  float: left; }
+  float: left;
+  font-family: 'Lobster', cursive;
+  font-size: 3em; }
 #slide-three .mentee {
   height: 70%;
   background-color: grey;
