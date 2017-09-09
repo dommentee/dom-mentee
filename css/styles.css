@@ -164,31 +164,34 @@ body {
 /*end of slide-two*/
 #slide-three .pannel {
   background-color: red;
-  width: 15%;
+  width: 12%;
   height: 70%;
   float: left; }
 #slide-three .mentee {
-  height: 60%;
+  height: 70%;
   background-color: grey;
   position: relative;
-  right: 10%;
+  right: 7%;
   top: 30%; }
 #slide-three .closing {
   display: inline-block;
   height: 100%;
-  width: 70%;
+  width: 76%;
   float: right; }
   #slide-three .closing .dom {
     width: 60%;
     height: 70%;
     float: left; }
   #slide-three .closing .domspic {
-    background-color: blue;
+    background-position: center center;
+    background: url("../images/");
+    background-size: cover;
     width: 40%; }
   #slide-three .closing .greeting {
-    background-color: orange; }
+    background-color: orange;
+    padding: 2%; }
   #slide-three .closing .contacts {
-    height: 30%;
+    height: 15%;
     width: 100%;
     display: flex;
     align-items: center;
