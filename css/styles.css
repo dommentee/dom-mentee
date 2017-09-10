@@ -162,51 +162,80 @@ body {
         background-repeat: no-repeat; }
 
 /*end of slide-two*/
-#slide-three .pannel {
-  background-color: red;
-  width: 12%;
-  height: 70%;
-  float: left;
-  font-family: 'Lobster', cursive;
-  font-size: 3em; }
-#slide-three .mentee {
-  height: 70%;
-  background-color: grey;
-  position: relative;
-  right: 7%;
-  top: 30%; }
-#slide-three .closing {
-  display: inline-block;
-  height: 100%;
-  width: 76%;
-  float: right; }
-  #slide-three .closing .dom {
-    width: 60%;
+#slide-three {
+  background-color: #2D6292; }
+  #slide-three .pannel {
+    width: 12%;
+    height: 80%;
+    text-align: center;
+    float: left;
+    font-family: 'Lobster', cursive;
+    font-size: 3em;
+    color: #D4D4D4; }
+    #slide-three .pannel .halfStyle {
+      font-size: 1.5em;
+      position: relative;
+      overflow: hidden;
+      white-space: pre;
+      display: inline; }
+    #slide-three .pannel .hs-vertical-half:before {
+      display: block;
+      display: inline;
+      z-index: 1;
+      position: absolute;
+      overflow: hidden;
+      color: #D4D4D4; }
+    #slide-three .pannel .hs-vertical-half:after {
+      color: #FF3E34; }
+  #slide-three .mentee {
     height: 70%;
-    float: left; }
-  #slide-three .closing .domspic {
-    background-position: center center;
-    background: url("../images/");
-    background-size: cover;
-    width: 40%; }
-  #slide-three .closing .greeting {
-    background-color: orange;
-    padding: 2%; }
-  #slide-three .closing .contacts {
-    height: 15%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    text-align: center; }
-  #slide-three .closing .reachby {
-    width: 33%;
-    padding: 8px 0;
-    border: 2px solid #000;
-    background-color: red;
-    cursor: pointer; }
-  #slide-three .closing .email {
-    margin-left: auto;
-    order: 1; }
+    position: relative;
+    right: 7%;
+    top: 25%; }
+  #slide-three .closing {
+    background: -webkit-linear-gradient(left, #D1D1D1, #D4D4D4);
+    display: inline-block;
+    height: 100%;
+    width: 76%;
+    border: 2px solid #383838;
+    border-radius: 10px;
+    float: right; }
+    #slide-three .closing .dom {
+      width: 60%;
+      height: 70%;
+      float: left; }
+    #slide-three .closing .domspic {
+      background-position: center center;
+      background: url("../images/");
+      background-size: cover;
+      width: 40%; }
+    #slide-three .closing .greeting {
+      padding: 2%; }
+      #slide-three .closing .greeting p {
+        margin-top: 8%; }
+    #slide-three .closing .contacts {
+      height: 15%;
+      margin: 0 5%;
+      width: 90%;
+      float: center;
+      display: flex;
+      align-items: center;
+      text-align: center; }
+    #slide-three .closing .reachby {
+      width: 35%;
+      padding: 8px 0;
+      border: 2px solid #383838;
+      background: -webkit-linear-gradient(right, #FF4231, #FF3E34);
+      background-color: #FF3E34;
+      cursor: pointer;
+      transition: all .2s; }
+      #slide-three .closing .reachby:hover {
+        background: -webkit-linear-gradient(top, #2D62AA, #2D6292);
+        background: -moz-linear-gradient(top, #2D62AA, #2D6292);
+        background-color: #2D62AA; }
+    #slide-three .closing .email {
+      margin-left: auto;
+      order: 1; }
 
 .main-content {
   background-color: teal;

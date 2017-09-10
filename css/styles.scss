@@ -230,28 +230,55 @@ body {
 /*end of slide-two*/
 
 #slide-three {
+	background-color: #2D6292;
+
 
 	.pannel {
-		background-color: red;
 		width: 12%;
-		height: 70%;
+		height: 80%;
+		text-align: center;
 		float: left;
 		font-family: 'Lobster', cursive;
 		font-size: 3em;
+		color: #D4D4D4;
+
+		.halfStyle {
+			font-size: 1.5em;
+			position: relative;
+    		overflow: hidden;
+    		white-space: pre; 
+    		display: inline;
+		}
+
+		.hs-vertical-half:before {
+			display: block;
+			display: inline;
+			z-index: 1;
+			position: absolute;
+			overflow: hidden;
+			color: #D4D4D4;
+		}
+
+		.hs-vertical-half:after {
+			color: #FF3E34;
+		}
+		
 	}
 
 	.mentee  {
 		height: 70%;
-		background-color: grey;
 		position: relative;	
 		right: 7%;
-		top: 30%;
+		top: 25%;
 	}
 
 	.closing {
+		background: -webkit-linear-gradient(left, #D1D1D1, #D4D4D4);
 		display: inline-block;
 		height: 100%;
 		width: 76%;
+		border: 2px solid #383838;
+		border-radius: 10px;
 		float: right;
 
 		.dom {
@@ -267,25 +294,39 @@ body {
 			width: 40%;
 		}
 
-		.greeting {
-			background-color: orange;
+		.greeting {	
 			padding: 2%;
+
+			p {
+				margin-top: 8%;
+			}
 		}
 
 		.contacts {
 			height: 15%;
-			width: 100%;
+			margin: 0 5%;
+			width: 90%;
+			float: center;
 			display: flex;
 			align-items: center;
 			text-align: center;				
 		}
 
 		.reachby {
-			width: 33%;
+			width: 35%;
 			padding: 8px 0;
-			border: 2px solid #000;
-			background-color: red;
+			border: 2px solid #383838;
+			background: -webkit-linear-gradient(right, #FF4231, #FF3E34);
+			background-color: #FF3E34;
 			cursor: pointer;
+			transition: all .2s;
+
+			&:hover {
+				background: -webkit-linear-gradient(top, #2D62AA, #2D6292 );
+  				background: -moz-linear-gradient(top, #2D62AA, #2D6292);
+  				background-color: #2D62AA;
+			}
+
 		}
 
 		.email {
@@ -293,7 +334,6 @@ body {
 			order: 1;
 		}
 	}
-
 
 }
 
