@@ -165,7 +165,8 @@ body {
 
 /*end of slide-two*/
 #slide-three {
-  background-color: #2D6292; }
+  background: -webkit-linear-gradient(left, #1C3366, #204775);
+  background-color: #1C3366; }
   #slide-three .pannel {
     width: 12%;
     height: 80%;
@@ -199,7 +200,7 @@ body {
     display: inline-block;
     height: 100%;
     width: 76%;
-    border: 2px solid #383838;
+    border-radius: 10px;
     float: right; }
     #slide-three .closing .dom {
       width: 65%;
@@ -207,9 +208,10 @@ body {
       float: left; }
     #slide-three .closing .domspic {
       background-position: center center;
-      background-color: orange;
+      background: url("../images/me.jpg");
       background-size: cover;
-      width: 35%; }
+      width: 35%;
+      border-top-left-radius: 10px; }
       #slide-three .closing .domspic .overlay {
         width: 100%;
         height: 100%;
@@ -230,14 +232,14 @@ body {
     #slide-three .closing .reachby {
       width: 38%;
       padding: 8px 0;
+      border-radius: 3px;
       border: 2px solid #383838;
-      background: -webkit-linear-gradient(right, #FF4231, #FF3E34);
-      background-color: #FF3E34;
+      background-color: #204775;
+      color: #D4D4D4;
       cursor: pointer; }
       #slide-three .closing .reachby:hover {
-        background: -webkit-linear-gradient(top, #2D62AA, #2D6292);
-        background: -moz-linear-gradient(top, #2D62AA, #2D6292);
-        background-color: #2D62AA; }
+        background: -webkit-linear-gradient(right, #FF4231, #FF3E34);
+        background-color: #FF3E34; }
     #slide-three .closing .email {
       margin-left: auto;
       order: 1; }
