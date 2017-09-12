@@ -29,8 +29,11 @@ body {
 	width: 29%;
 	position: absolute;
 	background-position: center center;
-	background: url("../images/home.jpeg");
+	//background: url("../images/home.jpeg");
 	background-size: cover;
+	background: -webkit-linear-gradient(left, #3B9DC4, #4C9DC4);
+	background-color: #4C9DC4;
+
 }
 
 .slide-container {
@@ -93,8 +96,8 @@ body {
 
 #slide-one {
 	height: 100%;
-	background: -webkit-linear-gradient(left, #00858F, #00A48F);	
-	background-color: #00858F;
+	background: -webkit-linear-gradient(left, #D1D1D1, #D4D4D4);
+	background-color: #D4D4D4;
 
 	.topic-wrap {
 		display: flex;
@@ -145,6 +148,7 @@ body {
 #slide-two { /*start of slide-two*/
 	height: 100%;
 	background: -webkit-linear-gradient(left, #D1D1D1, #D4D4D4);
+	background-color: #D4D4D4;
 
 	.approach {
 		background: -webkit-linear-gradient(right, #FF4231, #FF2F31);
@@ -278,7 +282,6 @@ body {
 		height: 100%;
 		width: 76%;
 		border: 2px solid #383838;
-		border-radius: 10px;
 		float: right;
 
 		.dom {
@@ -289,7 +292,8 @@ body {
 
 		.domspic {
 			background-position: center center;
-			background: url("../images/");
+			background-color: orange;
+			//background: url("../images/");
 			background-size: cover;
 			width: 35%;
 
@@ -312,7 +316,7 @@ body {
 
 		.contacts {
 			height: 15%;
-			margin: 0 2.5%;
+			margin: 2.5%;
 			width: 95%;
 			float: center;
 			display: flex;
@@ -327,7 +331,6 @@ body {
 			background: -webkit-linear-gradient(right, #FF4231, #FF3E34);
 			background-color: #FF3E34;
 			cursor: pointer;
-			transition: all .2s;
 
 			&:hover {
 				background: -webkit-linear-gradient(top, #2D62AA, #2D6292 );
