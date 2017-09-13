@@ -36,6 +36,11 @@ body {
 
 }
 
+.padded-container {
+	height: 100%;
+	padding: 5%;
+}
+
 .slide-container {
 	width: 100%;
 	height: 100%;
@@ -82,10 +87,6 @@ body {
   		background-color: #717171;
 	}
 
-	.padded-container {
-		height: 100%;
-		padding: 5%;
-	}
 
 	p {
 		font-size: 1.05em;
@@ -293,7 +294,7 @@ body {
 
 		.domspic {
 			background-position: center center;
-			background: url("../images/me.jpg");
+			//background: url("../images/me.jpg");
 			background-size: cover;
 			width: 35%;
 			border-top-left-radius: 10px; 
@@ -356,5 +357,10 @@ body {
 	height: 100%;
 	top: 100%;
 	position: relative;
+
+	.portfolio-wrap {
+		width: 100%;
+		background-color: red;
+	}
 }
 
