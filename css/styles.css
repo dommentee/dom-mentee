@@ -256,7 +256,7 @@ body {
   .main-content .portfolio-wrap {
     width: 100%;
     height: 50%;
-    margin-top: 6%;
+    margin-top: 8%;
     background-color: red; }
   .main-content .site-wrap {
     width: 33.3%;
@@ -272,6 +272,19 @@ body {
     position: relative;
     top: 0;
     overflow: hidden; }
+  .main-content .site-link {
+    overflow: hidden;
+    position: relative;
+    background-color: green;
+    transition: all .5s ease;
+    width: 100%;
+    height: 100%;
+    top: 0; }
+  .main-content .site-wrap:hover .site-link {
+    height: 100%;
+    top: -100%; }
+  .main-content .site-wrap:hover .site {
+    top: -100%; }
 
 footer {
   width: 100%;
