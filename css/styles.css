@@ -275,7 +275,7 @@ body {
     overflow: hidden;
     position: relative;
     width: 100%;
-    height: 70%;
+    height: 100%;
     top: 0;
     transition: all .85s ease; }
   .main-content .one {
@@ -289,10 +289,10 @@ body {
   .main-content .uwa {
     background-color: blue; }
   .main-content .site-wrap:hover .site-link {
-    height: 70%;
-    top: -70%; }
+    height: 100%;
+    top: -100%; }
   .main-content .site-wrap:hover .site {
-    top: -70%; }
+    top: -100%; }
 
 footer {
   width: 100%;

@@ -391,7 +391,7 @@ body {
 		overflow: hidden;
 		position: relative;
 		width: 100%;
-		height: 70%;
+		height: 100%;
 		top: 0;
 		transition: all .85s ease;
 
@@ -420,12 +420,12 @@ body {
 	.site-wrap:hover {
 
 		.site-link {
-			height: 70%;
-			top: -70%;
+			height: 100%;
+			top: -100%;
 		}
 
 		.site {
-			top: -70%;
+			top: -100%;
 		}
 	}
 }
