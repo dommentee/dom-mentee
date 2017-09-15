@@ -153,7 +153,7 @@ body {
 
 	.approach {
 		background: -webkit-linear-gradient(right, #FF4231, #FF2F31);
-		background-color: red;
+		background-color: #FF2F31;
 		width: 45%;
 		height: 100%;
 		float: left;
@@ -235,33 +235,23 @@ body {
 /*end of slide-two*/
 
 #slide-three {
-	background: -webkit-linear-gradient(left, #1C3366, #204775);
+	background: -webkit-linear-gradient(top, #1C3366, #204775 50%, #82A6C8, #91A6C8 50%);
 	background-color: #1C3366;
-
 
 	.pannel {
 		width: 12%;
-		height: 80%;
-		text-align: center;
+		height: 100%;
 		float: left;
-		font-family: 'Lobster', cursive;
 		font-size: 3em;
 		color: #D4D4D4;
-
+	
 		.halfStyle {
-			font-size: 1.5em;
-			position: relative;
-    		overflow: hidden;
-    		white-space: pre; 
-    		display: inline;
+			font-size: 2.5em;
+			display: inline;
+			text-align: center;
 		}
 
 		.hs-vertical-half:before {
-			display: block;
-			display: inline;
-			z-index: 1;
-			position: absolute;
-			overflow: hidden;
 			color: #D4D4D4;
 		}
 
@@ -271,20 +261,26 @@ body {
 		
 	}
 
+	.name-wrap {
+		width: 63%;
+		text-align: center;
+	}
+
 	.mentee  {
 		height: 70%;
 		position: relative;	
-		right: 7%;
-		top: 25%;
+		right: 3%;
 	}
 
 	.closing {
 		background: -webkit-linear-gradient(left, #D1D1D1, #D4D4D4);
 		display: inline-block;
-		height: 100%;
+		height: 95%;
 		width: 76%;
-		border-radius: 10px;
+		margin-top: 5%;
 		float: right;
+		border: 2px solid #383838;
+
 
 		.dom {
 			width: 65%;
@@ -297,7 +293,6 @@ body {
 			//background: url("../images/me.jpg");
 			background-size: cover;
 			width: 35%;
-			border-top-left-radius: 10px; 
 
 			.overlay {
 				width: 100%;
@@ -352,20 +347,21 @@ body {
 
 
 .main-content {
-	background-color: teal;
+	background: -webkit-linear-gradient(top, #F7F7F7, #EDEDED 50%,  #D1D1D1, #D4D4D4 50%);
 	width: 100%;
-	height: 150%;
+	height: 165%;
 	top: 100%;
 	position: relative;
 
 	h1 {
 		font-size: 2.5em;
+		display: inline-block;
 	}
 
 	.portfolio-wrap {
 		width: 100%;
-		height: 55%;
-		margin-top: 8%;
+		height: 50%;
+		margin-top: 7%;
 	}
 
 	.site-wrap {
@@ -398,9 +394,10 @@ body {
 	}
 
 	.one {
-		background: url("../images/me.jpg");
+		//background: url("../images/me.jpg");
 		background-position: center center;
 		background-size: cover;
+		background-color: yellow;
 
 	}
 
@@ -428,6 +425,19 @@ body {
 			top: -100%;
 		}
 	}
+
+	.contactme {
+		width: 60%;
+		margin: 12% auto;
+		text-align: center;
+		cursor: pointer;
+
+		&:hover {
+			color: #FF3E34;
+		}
+
+	}
+
 }
 
 footer {
