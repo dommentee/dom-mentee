@@ -168,27 +168,6 @@ body {
 #slide-three {
   background: -webkit-linear-gradient(top, #1C3366, #204775 50%, #82A6C8, #91A6C8 50%);
   background-color: #1C3366; }
-  #slide-three .pannel {
-    width: 12%;
-    height: 100%;
-    float: left;
-    font-size: 3em;
-    color: #D4D4D4; }
-    #slide-three .pannel .halfStyle {
-      font-size: 2.5em;
-      display: inline;
-      text-align: center; }
-    #slide-three .pannel .hs-vertical-half:before {
-      color: #D4D4D4; }
-    #slide-three .pannel .hs-vertical-half:after {
-      color: #FF3E34; }
-  #slide-three .name-wrap {
-    width: 63%;
-    text-align: center; }
-  #slide-three .mentee {
-    height: 70%;
-    position: relative;
-    right: 3%; }
   #slide-three .closing {
     background: -webkit-linear-gradient(left, #D1D1D1, #D4D4D4);
     display: inline-block;
