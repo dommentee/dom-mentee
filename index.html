@@ -6,15 +6,28 @@
 	<link href="css/styles.css" rel="stylesheet">
 	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<link href="css/halfstyle.css" rel="stylesheet">
 	<link href="css/ionicons.css" rel="stylesheet">
 	<title>DOM::MENTEE</title>	
 </head>
 <body>
- 	<!--maing page that hold the slide show-->	
+ 	<!--main page that hold the slide show-->	
 	<div class="home">
 
 		<div class="slide-container">
+
+			<div class="namewrap">
+
+				<span class="halfStyle hs-vertical-half" data-content="D">D</span>omacor
+
+			</div>
+
+			<div class="namewrap last">
+
+				<span class="halfStyle hs-vertical-half" data-content="M">M</span>entee
+
+			</div>
 
 			<div class="mySlides fade" id="slide-one">
 
@@ -197,6 +210,11 @@
   				<span class="dot" onclick="currentSlide(1)"></span> 
   				<span class="dot" onclick="currentSlide(2)"></span> 
   				<span class="dot" onclick="currentSlide(3)"></span> 
+  				<br>
+
+  				<a href="#portfolio" class="buton">
+  					<i class="fa fa-chevron-down" aria-hidden="true"></i>
+  				</a>
 
   			</div>	
 
@@ -247,13 +265,29 @@
   			slideIndex++;
 			setTimeout(autoSlide, 7000);
 	}
+
 	</script>
 	<!--end of script for automatic slideshow-->
+	<script>
+	$(document).ready(function(){
+  	 $("a").on('click', function(event) {
+      if (this.hash !== "") {
+    	event.preventDefault();
+    	var hash = this.hash;
+     	$('html, body').animate({
+        scrollTop: $(hash).offset().top
+      	}, 800, function(){
+        window.location.hash = hash;
+     	});
+      } 
+  	 });
+	});
+	</script>
 
 	<div class="main-content">
 		
 		<div class="padded-container">
-			<h1> Web Designer & Developer <br> Portfolio for 2017.</h1>
+			<h1 id="portfolio"> Web Designer & Developer <br> Portfolio for 2017.</h1>
 
 			<div class="portfolio-wrap">
 
