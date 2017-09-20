@@ -284,34 +284,17 @@ body {
 		background: -webkit-linear-gradient(left, #D1D1D1, #D4D4D4);
 		display: inline-block;
 		height: 100%;
-		width: 76%;
+		width: 70%;
 		float: right;
 		border: 2px solid #383838;
 
 
 		.dom {
-			width: 65%;
-			height: 70%;
-			float: left;
-		}
-
-		.domspic {
-			background-position: center center;
-			//background: url("../images/me.jpg");
-			background-size: cover;
-			width: 35%;
-
-			.overlay {
-				width: 100%;
-				height: 100%;
-				background-color: #383838;
-				opacity: .5;
-
-			}
+			width: 100%;
 		}
 
 		.greeting {	
-			padding: 2%;
+			padding: 4%;
 
 			p {
 				margin-top: 8%;
