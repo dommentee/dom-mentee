@@ -21,7 +21,7 @@ body {
 
 .leftmain-picture {
   height: 100%;
-  width: 29.5%;
+  width: 30%;
   position: absolute;
   background-position: center center;
   background: url("../images/home.jpeg");
@@ -61,8 +61,8 @@ body {
       font-size: 2.5em; }
     .slide-container .namewrap .hs-vertical-half:after {
       color: #FF4231; }
-  .slide-container .hs-vertical-half:before {
-    color: #fff; }
+    .slide-container .namewrap .hs-vertical-half:before {
+      color: #fff; }
   .slide-container .last {
     left: 17.5%; }
   .slide-container .selector {
@@ -119,7 +119,7 @@ body {
       color: #FF3E34; }
   #slide-one .about-me {
     height: 100%;
-    width: 71.5%; }
+    width: 69.8%; }
     #slide-one .about-me h1 {
       padding: 0 10%; }
     #slide-one .about-me p {
@@ -187,10 +187,10 @@ body {
 
 /*end of slide-two*/
 #slide-three {
-  background: -webkit-linear-gradient(top, #1C3366, #204775 50%, #82A6C8, #91A6C8 50%);
+  background: -webkit-linear-gradient(top, #82A6C8, #91A6C8);
   background-color: #1C3366; }
-  #slide-three #mypic {
-    width: 30%; }
+  #slide-three .leftmain-picture {
+    right: 0; }
   #slide-three .picwrap {
     width: 50%;
     height: 100%;
@@ -235,40 +235,49 @@ body {
     background: url("../images/righthalf.png");
     background-position: center center;
     background-size: cover; }
-  #slide-three .closing {
-    background: -webkit-linear-gradient(left, #D1D1D1, #D4D4D4);
+  #slide-three .topic .halfStyle {
+    font-size: 20em;
+    position: relative;
+    overflow: hidden;
+    white-space: pre;
     display: inline-block;
-    height: 100%;
-    width: 73%;
     float: right;
-    border: 2px solid #383838; }
-    #slide-three .closing .dom {
-      width: 100%; }
-    #slide-three .closing .greeting {
-      padding: 4%; }
-      #slide-three .closing .greeting p {
-        margin-top: 8%; }
-    #slide-three .closing .contacts {
-      height: 15%;
-      padding: 4%;
-      float: center;
-      display: flex;
-      align-items: center;
-      text-align: center; }
-    #slide-three .closing .reachby {
-      width: 40%;
-      padding: 8px 0;
-      border-radius: 3px;
-      border: 2px solid #383838;
-      background-color: #204775;
-      color: #D4D4D4;
-      cursor: pointer; }
-      #slide-three .closing .reachby:hover {
-        background: -webkit-linear-gradient(right, #FF4231, #FF3E34);
-        background-color: #FF3E34; }
-    #slide-three .closing .email {
-      margin-left: auto;
-      order: 1; }
+    margin-right: 15.5%; }
+  #slide-three .topic .hs-vertical-half:before {
+    display: block;
+    display: inline;
+    z-index: 1;
+    position: absolute;
+    overflow: hidden;
+    color: #fff;
+    opacity: .7; }
+  #slide-three .topic .hs-vertical-half:after {
+    color: #FF3E34; }
+  #slide-three .topic-wrap {
+    height: 100%;
+    width: 100%; }
+  #slide-three .about-me {
+    height: 100%;
+    width: 50%;
+    float: left; }
+    #slide-three .about-me h1 {
+      margin: 0 0 10% 0; }
+    #slide-three .about-me p {
+      margin: 0 0 10% 0; }
+  #slide-three .contacts {
+    width: 50%; }
+  #slide-three .reachby {
+    width: 100%;
+    padding: 8px 0;
+    border-radius: 3px;
+    border: 2px solid #383838;
+    background-color: #204775;
+    color: #D4D4D4;
+    cursor: pointer;
+    float: left; }
+    #slide-three .reachby:hover {
+      background: -webkit-linear-gradient(right, #FF4231, #FF3E34);
+      background-color: #FF3E34; }
 
 /*end of slide three*/
 .main-content {

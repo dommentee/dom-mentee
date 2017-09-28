@@ -26,7 +26,7 @@ body {
 
 .leftmain-picture {
 	height: 100%;
-	width: 29.5%;
+	width: 30%;
 	position: absolute;
 	background-position: center center;
 	background: url("../images/home.jpeg");
@@ -81,11 +81,10 @@ body {
 		.hs-vertical-half:after {
 			color: #FF4231;
 		}	
-    
-        }
 
 		.hs-vertical-half:before {
 			color: #fff;
+		}
 		
 	}
 
@@ -134,8 +133,8 @@ body {
 		font-size: 1.05em;
 	}
 
-
 }
+
 
 #slide-one {
 	height: 100%;
@@ -177,7 +176,7 @@ body {
 	}
 	.about-me {
 		height: 100%;
-		width: 71.5%;
+		width: 69.8%;
 
 		h1 {
 			padding: 0 10%;
@@ -186,7 +185,6 @@ body {
 		p {
 			padding: 25% 10%;
 		}
-	
 	}
 }/*end of slide-one css edditing*/
 
@@ -279,12 +277,11 @@ body {
 /*end of slide-two*/
 
 #slide-three {
-	background: -webkit-linear-gradient(top, #1C3366, #204775 50%, #82A6C8, #91A6C8 50%);
+	background: -webkit-linear-gradient(top, #82A6C8, #91A6C8);
 	background-color: #1C3366;
 
-	#mypic {
-		width: 30%;
-
+	.leftmain-picture {
+		right: 0;
 	}
 
 	.picwrap {
@@ -353,59 +350,76 @@ body {
 	}
 
 
+	.topic {
 
-	.closing {
-		background: -webkit-linear-gradient(left, #D1D1D1, #D4D4D4);
-		display: inline-block;
+		.halfStyle {
+			font-size: 20em;
+			position: relative;
+    		overflow: hidden;
+    		white-space: pre; 
+    		display: inline-block;
+    		float: right;
+    		margin-right: 15.5%;
+
+		}
+
+		.hs-vertical-half:before {
+			display: block;
+			display: inline;
+			z-index: 1;
+			position: absolute;
+			overflow: hidden;
+			color: #fff;
+			opacity: .7;
+		}
+
+		.hs-vertical-half:after {
+			color: #FF3E34;
+		}
+
+	}
+
+	.topic-wrap {
 		height: 100%;
-		width: 73%;
-		float: right;
-		border: 2px solid #383838;
+		width: 100%;
+	}
 
+	.about-me {
+		height: 100%;
+		width: 50%;
+		float: left;
 
-		.dom {
-			width: 100%;
+		h1 {
+			margin: 0 0 10% 0;
 		}
 
-		.greeting {	
-			padding: 4%;
-
-			p {
-				margin-top: 8%;
-			}
-		}
-
-		.contacts {
-			height: 15%;
-			padding: 4%;
-			float: center;
-			display: flex;
-			align-items: center;
-			text-align: center;				
-		}
-
-		.reachby {
-			width: 40%;
-			padding: 8px 0;
-			border-radius: 3px;
-			border: 2px solid #383838;
-  			background-color: #204775;
-  			color: #D4D4D4;
-			cursor: pointer;
-
-			&:hover {
-				background: -webkit-linear-gradient(right, #FF4231, #FF3E34);
-				background-color: #FF3E34;
-			}
-
-		}
-
-		.email {
-			margin-left: auto;
-			order: 1;
+		p {
+			margin: 0 0 10% 0;
 		}
 	}
 
+
+	.contacts {
+		width: 50%;
+	}
+
+	.reachby {
+		width: 100%;
+		padding: 8px 0;
+		border-radius: 3px;
+		border: 2px solid #383838;
+  		background-color: #204775;
+  		color: #D4D4D4;
+		cursor: pointer;
+		float: left;
+
+		&:hover {
+			background: -webkit-linear-gradient(right, #FF4231, #FF3E34);
+			background-color: #FF3E34;
+		}
+
+	}
+	
 }/*end of slide three*/
 
 
