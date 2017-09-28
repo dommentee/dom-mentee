@@ -73,7 +73,7 @@ body {
     .slide-container .selector .buton:hover {
       cursor: pointer; }
     .slide-container .selector i {
-      font-size: 1.3em;
+      font-size: 1.5em;
       margin-left: 30%;
       color: #303030; }
   .slide-container .dot {
@@ -191,50 +191,6 @@ body {
   background-color: #1C3366; }
   #slide-three .leftmain-picture {
     right: 0; }
-  #slide-three .picwrap {
-    width: 50%;
-    height: 100%;
-    position: relative;
-    overflow: hidden;
-    float: left;
-    transition: all .85s ease;
-    -webkit-transition-delay: .6s;
-    transition-delay: .6s; }
-  #slide-three .realpic {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    top: 0;
-    overflow: hidden;
-    transition: .85s ease;
-    -webkit-transition-delay: .6s;
-    transition-delay: .6s; }
-  #slide-three .drawnpic {
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    transition: all .85s ease;
-    -webkit-transition-delay: .6s;
-    transition-delay: .6s; }
-  #slide-three .picwrap:hover .drawnpic {
-    height: 100%;
-    top: -100%; }
-  #slide-three .picwrap:hover .realpic {
-    top: -100%; }
-  #slide-three .realone {
-    background: url("../images/sadme.png");
-    background-position: center center;
-    background-size: cover; }
-  #slide-three .realtwo {
-    background-color: purple; }
-  #slide-three .drawnone {
-    background-color: purple; }
-  #slide-three .drawntwo {
-    background: url("../images/righthalf.png");
-    background-position: center center;
-    background-size: cover; }
   #slide-three .topic .halfStyle {
     font-size: 20em;
     position: relative;
@@ -285,7 +241,7 @@ body {
 .main-content {
   background: -webkit-linear-gradient(top, #F7F7F7, #EDEDED 50%, #D1D1D1, #D4D4D4 50%);
   width: 100%;
-  height: 155%;
+  height: 200%;
   top: 100%;
   position: relative; }
   .main-content h1 {
@@ -293,10 +249,10 @@ body {
     display: inline-block; }
   .main-content .portfolio-wrap {
     width: 100%;
-    height: 51.5%;
+    height: 33%;
     margin-top: 7%; }
   .main-content .site-wrap {
-    width: 33.3%;
+    width: 28%;
     height: 100%;
     position: relative;
     overflow: hidden;
@@ -337,9 +293,57 @@ body {
     top: -100%; }
   .main-content .site-wrap:hover .site {
     top: -100%; }
+  .main-content .profile {
+    width: 30%;
+    height: 38%;
+    margin: 5% auto; }
+    .main-content .profile .picwrap {
+      width: 50%;
+      height: 100%;
+      position: relative;
+      overflow: hidden;
+      float: left;
+      transition: all .85s ease;
+      -webkit-transition-delay: .6s;
+      transition-delay: .6s; }
+    .main-content .profile .realpic {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      top: 0;
+      overflow: hidden;
+      transition: .85s ease;
+      -webkit-transition-delay: .6s;
+      transition-delay: .6s; }
+    .main-content .profile .drawnpic {
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      transition: all .85s ease;
+      -webkit-transition-delay: .6s;
+      transition-delay: .6s; }
+    .main-content .profile .picwrap:hover .drawnpic {
+      height: 100%;
+      top: -100%; }
+    .main-content .profile .picwrap:hover .realpic {
+      top: -100%; }
+    .main-content .profile .realone {
+      background: url("../images/sadme.png");
+      background-position: center center;
+      background-size: cover; }
+    .main-content .profile .realtwo {
+      background-color: purple; }
+    .main-content .profile .drawnone {
+      background-color: purple; }
+    .main-content .profile .drawntwo {
+      background: url("../images/righthalf.png");
+      background-position: center center;
+      background-size: cover; }
   .main-content .contactme {
     width: 60%;
-    margin: 10% auto;
+    margin: 5% auto;
     text-align: center;
     cursor: pointer; }
     .main-content .contactme:hover {
