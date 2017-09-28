@@ -265,7 +265,8 @@ body {
     #slide-three .about-me p {
       margin: 0 0 10% 0; }
   #slide-three .contacts {
-    width: 50%; }
+    width: 70%;
+    text-align: center; }
   #slide-three .reachby {
     width: 100%;
     padding: 8px 0;
@@ -274,7 +275,8 @@ body {
     background-color: #204775;
     color: #D4D4D4;
     cursor: pointer;
-    float: left; }
+    float: left;
+    margin-top: 2%; }
     #slide-three .reachby:hover {
       background: -webkit-linear-gradient(right, #FF4231, #FF3E34);
       background-color: #FF3E34; }
