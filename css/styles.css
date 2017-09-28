@@ -24,8 +24,8 @@ body {
   width: 29.5%;
   position: absolute;
   background-position: center center;
-  background-size: cover;
-  background-color: #4C9DC4; }
+  background: url("../images/home.jpeg");
+  background-size: cover; }
 
 .padded-container {
   height: 100%;
@@ -119,11 +119,11 @@ body {
       color: #FF3E34; }
   #slide-one .about-me {
     height: 100%;
-    width: 57%;
-    margin-left: 3%;
-    display: inline; }
+    width: 71.5%; }
+    #slide-one .about-me h1 {
+      padding: 0 10%; }
     #slide-one .about-me p {
-      margin-top: 48%; }
+      padding: 25% 10%; }
 
 /*end of slide-one css edditing*/
 #slide-two {
@@ -224,13 +224,17 @@ body {
   #slide-three .picwrap:hover .realpic {
     top: -100%; }
   #slide-three .realone {
-    background-color: pink; }
+    background: url("../images/sadme.png");
+    background-position: center center;
+    background-size: cover; }
   #slide-three .realtwo {
     background-color: purple; }
   #slide-three .drawnone {
     background-color: purple; }
   #slide-three .drawntwo {
-    background-color: pink; }
+    background: url("../images/righthalf.png");
+    background-position: center center;
+    background-size: cover; }
   #slide-three .closing {
     background: -webkit-linear-gradient(left, #D1D1D1, #D4D4D4);
     display: inline-block;

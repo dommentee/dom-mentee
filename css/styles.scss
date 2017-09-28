@@ -29,10 +29,10 @@ body {
 	width: 29.5%;
 	position: absolute;
 	background-position: center center;
-	//background: url("../images/home.jpeg");
+	background: url("../images/home.jpeg");
 	background-size: cover;
 	//background: -webkit-linear-gradient(left, #3B9DC4, #4C9DC4);
-	background-color: #4C9DC4;
+	//background-color: #4C9DC4;
 
 }
 
@@ -177,14 +177,16 @@ body {
 	}
 	.about-me {
 		height: 100%;
-		width: 57%;
-		margin-left: 3%;
-		display: inline;
+		width: 71.5%;
+
+		h1 {
+			padding: 0 10%;
+		}
 
 		p {
-			margin-top: 48%;
-
+			padding: 25% 10%;
 		}
+	
 	}
 }/*end of slide-one css edditing*/
 
@@ -331,7 +333,9 @@ body {
 	}
 
 	.realone {
-		background-color: pink;
+		background: url("../images/sadme.png");
+		background-position: center center;
+		background-size: cover;
 	}
 
 	.realtwo {
@@ -343,7 +347,9 @@ body {
 	}
 
 	.drawntwo {
-		background-color: pink;
+		background: url("../images/righthalf.png");
+		background-position: center center;
+		background-size: cover;
 	}
 
 
