@@ -49,11 +49,14 @@ body {
     opacity: .5; }
   to {
     opacity: 1; } }
-  .slide-container #myname {
+  .slide-container #header {
     width: 100%;
-    padding: 3% 8%;
     position: absolute;
-    z-index: 1; }
+    z-index: 1;
+    padding: 2% 8%;
+    overflow: hidden;
+    display: flex;
+    align-items: center; }
   .slide-container .namewrap {
     float: left;
     display: inline; }
@@ -64,6 +67,13 @@ body {
       color: #FF4231; }
     .slide-container .namewrap .hs-vertical-half:before {
       color: #fff; }
+  .slide-container .quick-contact {
+    margin-left: auto;
+    order: 2;
+    color: #303030; }
+    .slide-container .quick-contact a {
+      text-decoration: none;
+      color: #303030; }
   .slide-container .selector {
     display: inline-block;
     position: absolute;
@@ -234,6 +244,9 @@ body {
   cursor: pointer;
   float: left;
   margin-top: 2%; }
+  .reachby a {
+    text-decoration: none;
+    color: #D4D4D4; }
   .reachby:hover {
     background: -webkit-linear-gradient(right, #FF4231, #FF3E34);
     background-color: #FF3E34; }

@@ -50,7 +50,6 @@ body {
 	.mySlides {
 		height: 100%;
 		display: none;
-
 	}
 
 	.fade {
@@ -65,11 +64,14 @@ body {
 		to{opacity: 1}
 	}
 
-	#myname {
+	#header {
 		width: 100%;
-		padding: 3% 8%;
 		position: absolute;
 		z-index: 1;
+		padding: 2% 8%;
+		overflow: hidden;
+		display: flex;
+		align-items: center;
 	}
 
 	.namewrap {
@@ -90,6 +92,19 @@ body {
 		}
 		
 	}
+
+	.quick-contact {
+		margin-left: auto;
+		order: 2;
+		color: #303030;
+
+		a {
+			text-decoration: none;
+			color: #303030;
+		}
+	}
+
+
 
 	.selector {
 		display: inline-block;
@@ -303,7 +318,6 @@ body {
 		.hs-vertical-half:after {
 			color: #FF3E34;
 		}
-
 	}
 
 	.topic-wrap {
@@ -342,6 +356,13 @@ body {
 	cursor: pointer;
 	float: left;
 	margin-top: 2%;
+
+	
+	a {
+		text-decoration: none;
+		color: #D4D4D4;
+	}
+
 
 	&:hover {
 		background: -webkit-linear-gradient(right, #FF4231, #FF3E34);
