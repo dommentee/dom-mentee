@@ -49,22 +49,21 @@ body {
     opacity: .5; }
   to {
     opacity: 1; } }
-  .slide-container .namewrap {
+  .slide-container #myname {
+    width: 100%;
+    padding: 3% 8%;
     position: absolute;
-    align-items: center;
-    z-index: 1;
-    top: 4.5%;
-    left: 10%;
-    float: left; }
+    z-index: 1; }
+  .slide-container .namewrap {
+    float: left;
+    display: inline; }
     .slide-container .namewrap .halfStyle {
       display: inline;
-      font-size: 2.5em; }
+      font-size: 2.3em; }
     .slide-container .namewrap .hs-vertical-half:after {
       color: #FF4231; }
     .slide-container .namewrap .hs-vertical-half:before {
       color: #fff; }
-  .slide-container .last {
-    left: 17.5%; }
   .slide-container .selector {
     display: inline-block;
     position: absolute;
@@ -223,21 +222,22 @@ body {
   #slide-three .contacts {
     width: 70%;
     text-align: center; }
-  #slide-three .reachby {
-    width: 100%;
-    padding: 8px 0;
-    border-radius: 3px;
-    border: 2px solid #383838;
-    background-color: #204775;
-    color: #D4D4D4;
-    cursor: pointer;
-    float: left;
-    margin-top: 2%; }
-    #slide-three .reachby:hover {
-      background: -webkit-linear-gradient(right, #FF4231, #FF3E34);
-      background-color: #FF3E34; }
 
 /*end of slide three*/
+.reachby {
+  width: 100%;
+  padding: 8px 0;
+  border-radius: 3px;
+  border: 2px solid #383838;
+  background-color: #204775;
+  color: #D4D4D4;
+  cursor: pointer;
+  float: left;
+  margin-top: 2%; }
+  .reachby:hover {
+    background: -webkit-linear-gradient(right, #FF4231, #FF3E34);
+    background-color: #FF3E34; }
+
 .main-content {
   background: -webkit-linear-gradient(top, #F7F7F7, #EDEDED 50%, #D1D1D1, #D4D4D4 50%);
   width: 100%;
@@ -295,8 +295,10 @@ body {
     top: -100%; }
   .main-content .profile {
     width: 30%;
-    height: 38%;
-    margin: 5% auto; }
+    height: 42%;
+    margin: 6%;
+    display: inline-block;
+    float: left; }
     .main-content .profile .picwrap {
       width: 50%;
       height: 100%;
@@ -342,11 +344,9 @@ body {
       background-position: center center;
       background-size: cover; }
   .main-content .contactme {
-    width: 60%;
-    margin: 5% auto;
-    text-align: center;
-    cursor: pointer; }
-    .main-content .contactme:hover {
-      color: #FF3E34; }
+    width: 38%;
+    margin: 25% 0;
+    float: left;
+    text-align: center; }
 
 /*# sourceMappingURL=styles.css.map */
