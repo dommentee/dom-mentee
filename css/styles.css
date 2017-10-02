@@ -226,30 +226,31 @@ body {
     width: 50%;
     float: left; }
     #slide-three .about-me h1 {
-      margin: 0 0 10% 0; }
+      margin: 0 0 8% 0; }
     #slide-three .about-me p {
-      margin: 0 0 10% 0; }
-  #slide-three .contacts {
-    width: 70%;
-    text-align: center; }
+      margin: 0 0 8% 0; }
 
 /*end of slide three*/
-.reachby {
-  width: 100%;
-  padding: 8px 0;
-  border-radius: 3px;
-  border: 2px solid #383838;
-  background-color: #204775;
-  color: #D4D4D4;
-  cursor: pointer;
-  float: left;
-  margin-top: 2%; }
-  .reachby a {
+.contacts {
+  width: 65%;
+  text-align: center; }
+  .contacts a {
+    width: 100%;
+    float: left;
+    text-decoration: none; }
+  .contacts .reachby {
+    background-color: green;
+    padding: 8px 0;
+    border-radius: 3px;
+    border: 2px solid #383838;
+    background-color: #204775;
     text-decoration: none;
-    color: #D4D4D4; }
-  .reachby:hover {
-    background: -webkit-linear-gradient(right, #FF4231, #FF3E34);
-    background-color: #FF3E34; }
+    margin-top: 2%;
+    color: #D4D4D4;
+    transition: all .5s; }
+    .contacts .reachby:hover {
+      background: -webkit-linear-gradient(right, #FF4231, #FF3E34);
+      background-color: #FF3E34; }
 
 .main-content {
   background: -webkit-linear-gradient(top, #F7F7F7, #EDEDED 50%, #D1D1D1, #D4D4D4 50%);
@@ -356,7 +357,7 @@ body {
       background: url("../images/righthalf.png");
       background-position: center center;
       background-size: cover; }
-  .main-content .contactme {
+  .main-content .contacts {
     width: 38%;
     margin: 25% 0;
     float: left;
