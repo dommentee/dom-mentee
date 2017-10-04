@@ -372,6 +372,7 @@ body {
 
 .main-content {
 	background: -webkit-linear-gradient(top, #F7F7F7, #EDEDED 50%,  #D1D1D1, #D4D4D4 50%);
+	background-color: #EDEDED; 
 	width: 100%;
 	height: 200%;
 	top: 100%;
@@ -456,7 +457,7 @@ body {
 	.profile {
 		width: 30%;
 		height: 42%;
-		margin: 6%;
+		margin: 5%;
 		display: inline-block;
 		float: left;
 
@@ -528,9 +529,16 @@ body {
 
 	.contacts {
 		width: 38%;
-		margin: 25% 0;
+		margin: 24% 0;
 		float: left;
 		text-align: center;
+	}
+
+	footer {
+		width: 100%;
+		bottom: 0;
+		text-align: center;
+		float: left;
 	}
 }
 
