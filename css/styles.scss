@@ -104,26 +104,26 @@ body {
 		}
 	}
 
-
-
 	.selector {
 		display: inline-block;
 		position: absolute;
 		top: 88%;
 		right: 50%;
 
-		.buton {
-	
-			&:hover {
-				cursor: pointer;
-			}
-		}
-
 		i {
 			font-size: 1.5em;
 			margin-left: 30%;
 			color: #303030;
 		}
+	}
+
+	.buton {
+		text-decoration: none;
+	}
+
+	#work {
+		padding: 0 15px;
+
 	}
 
 	.dot {
@@ -142,7 +142,7 @@ body {
 	}
 
 	p {
-		font-size: 1.05em;
+		font-size: 1.3em;
 	}
 }
 
@@ -302,7 +302,7 @@ body {
     		white-space: pre; 
     		display: inline-block;
     		float: right;
-    		margin-right: 15.5%;
+    		margin-right: 16%;
 		}
 
 		.hs-vertical-half:before {

@@ -79,12 +79,14 @@ body {
     position: absolute;
     top: 88%;
     right: 50%; }
-    .slide-container .selector .buton:hover {
-      cursor: pointer; }
     .slide-container .selector i {
       font-size: 1.5em;
       margin-left: 30%;
       color: #303030; }
+  .slide-container .buton {
+    text-decoration: none; }
+  .slide-container #work {
+    padding: 0 15px; }
   .slide-container .dot {
     position: relative;
     cursor: pointer;
@@ -97,7 +99,7 @@ body {
   .slide-container .active, .slide-container .dot:hover {
     background-color: #717171; }
   .slide-container p {
-    font-size: 1.05em; }
+    font-size: 1.3em; }
 
 #slide-one {
   height: 100%;
@@ -207,7 +209,7 @@ body {
     white-space: pre;
     display: inline-block;
     float: right;
-    margin-right: 15.5%; }
+    margin-right: 16%; }
   #slide-three .topic .hs-vertical-half:before {
     display: block;
     display: inline;
