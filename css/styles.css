@@ -248,7 +248,7 @@ body {
     border: 2px solid #383838;
     background-color: #204775;
     text-decoration: none;
-    margin-top: 2%;
+    margin-top: 3%;
     color: #D4D4D4;
     transition: all .5s; }
     .contacts .reachby:hover {
@@ -259,7 +259,7 @@ body {
   background: -webkit-linear-gradient(top, #F7F7F7, #EDEDED 50%, #D1D1D1, #D4D4D4 50%);
   background-color: #EDEDED;
   width: 100%;
-  height: 200%;
+  height: 210%;
   top: 100%;
   position: relative; }
   .main-content h1 {
@@ -267,10 +267,10 @@ body {
     display: inline-block; }
   .main-content .portfolio-wrap {
     width: 100%;
-    height: 33%;
+    height: 35%;
     margin-top: 7%; }
   .main-content .site-wrap {
-    width: 28%;
+    width: 30%;
     height: 100%;
     position: relative;
     overflow: hidden;
@@ -293,28 +293,37 @@ body {
     width: 100%;
     height: 100%;
     top: 0;
+    background-color: #303945;
     transition: all .85s ease;
     -webkit-transition-delay: .6s;
     transition-delay: .6s; }
+    .main-content .site-link .icon {
+      padding: 0;
+      margin: 50% 0;
+      font-size: 2.5em; }
+      .main-content .site-link .icon a {
+        text-decoration: none;
+        color: #FF2F31; }
+  .main-content .icon {
+    position: relative;
+    padding: 50% 30%;
+    margin: 15% auto;
+    text-align: center; }
   .main-content .one {
     background: url("../images/home.jpeg");
     background-position: center center;
-    background-size: cover;
-    background-color: yellow; }
+    background-size: cover; }
     .main-content .one .icon {
-      position: relative;
-      width: 75%;
-      height: 75%;
-      margin: 15% auto;
       background: url("../images/comp.png");
       background-position: center center;
       background-size: cover; }
   .main-content .two {
-    background-color: purple; }
-  .main-content .av8 {
-    background-color: pink; }
-  .main-content .uwa {
-    background-color: blue; }
+    background-color: lime;
+    text-align: center;
+    background: -webkit-linear-gradient(top, #5EEF9B, #55F5AF, #55F5E9);
+    background: -moz-linear-gradient(top, #5EEF9B, #55F5AF, #55F5E9); }
+    .main-content .two h1 {
+      margin: 40% 0; }
   .main-content .site-wrap:hover .site-link {
     height: 100%;
     top: -100%; }
@@ -322,7 +331,7 @@ body {
     top: -100%; }
   .main-content .profile {
     width: 30%;
-    height: 42%;
+    height: 38%;
     margin: 5%;
     display: inline-block;
     float: left; }
