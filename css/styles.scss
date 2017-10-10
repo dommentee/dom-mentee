@@ -423,10 +423,21 @@ body {
 	}
 
 	.one {
-		//background: url("../images/me.jpg");
 		background-position: center center;
 		background-size: cover;
 		background-color: yellow;
+
+		.icon {
+			position: relative;
+			width: 75%;
+			height: 75%;
+			margin: 15% auto;
+			background: url("../images/comp.png");
+			background-position: center center;
+			background-size: cover;
+			
+
+		}
 	}
 
 	.two {
