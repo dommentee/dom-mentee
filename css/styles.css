@@ -123,7 +123,7 @@ body {
       overflow: hidden;
       white-space: pre;
       display: inline;
-      margin: 5% 0 0 51%; }
+      margin: 5% 0 0 50.5%; }
     #slide-one .topic .hs-vertical-half:before {
       display: block;
       display: inline;
@@ -136,8 +136,9 @@ body {
       color: #FF3E34; }
   #slide-one .about-me {
     height: 100%;
-    width: 70%;
-    padding: 8%; }
+    width: 60%;
+    padding: 8%;
+    float: right; }
     #slide-one .about-me p {
       padding: 15% 0; }
 
@@ -146,7 +147,7 @@ body {
   /*start of slide-two*/
   height: 100%; }
   #slide-two .approach {
-    background: -webkit-linear-gradient(right, #FF4231, #FF2F31);
+    background: -webkit-linear-gradient(right, #FF4231, #E04B3A);
     background-color: #FF2F31;
     width: 45%;
     height: 100%;
@@ -205,15 +206,17 @@ body {
   background: -webkit-linear-gradient(top, #82A6C8, #91A6C8);
   background-color: #1C3366; }
   #slide-three .leftmain-picture {
-    right: 0; }
+    right: 0;
+    background: url("../images/contact.jpg");
+    background-size: cover; }
   #slide-three .topic .halfStyle {
     font-size: 20em;
     position: relative;
     overflow: hidden;
     white-space: pre;
-    display: inline-block;
+    display: inline;
     float: right;
-    margin-right: 16%; }
+    margin: 5% 20.5% 0 0; }
   #slide-three .topic .hs-vertical-half:before {
     display: block;
     display: inline;
@@ -226,7 +229,8 @@ body {
     color: #FF3E34; }
   #slide-three .topic-wrap {
     height: 100%;
-    width: 100%; }
+    width: 85%;
+    padding: 5% 3%; }
   #slide-three .about-me {
     height: 100%;
     width: 50%;
@@ -235,10 +239,12 @@ body {
       margin: 0 0 8% 0; }
     #slide-three .about-me p {
       margin: 0 0 8% 0; }
+  #slide-three .contacts {
+    width: 80%; }
 
 /*end of slide three*/
 .contacts {
-  width: 65%;
+  width: 60%;
   text-align: center; }
   .contacts a {
     width: 100%;
