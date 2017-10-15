@@ -205,8 +205,6 @@ body {
 
 #slide-two { /*start of slide-two*/
 	height: 100%;
-	background: -webkit-linear-gradient(left, #D1D1D1, #D4D4D4);
-	background-color: #D4D4D4;
 
 	.approach {
 		background: -webkit-linear-gradient(right, #FF4231, #FF2F31);
@@ -214,9 +212,10 @@ body {
 		width: 45%;
 		height: 100%;
 		float: left;
+		padding: 0 3%;
 
 		.halfStyle {
-			font-size: 10em;
+			font-size: 12em;
 			position: relative;
 			overflow: hidden;
     		white-space: pre; 
@@ -236,10 +235,14 @@ body {
 			color: #fff;
 		}
 
+		.wordending {
+			font-size: 2em;
+		}
+
+
 		p {
-			width: 90%;
-			float: right;
-			margin: 5% auto;
+
+			padding: 7% 0;
 		}
 
 	}
