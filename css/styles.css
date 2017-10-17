@@ -21,11 +21,11 @@ body {
   position: fixed; }
   .home .padded-container {
     height: 86%;
-    padding: 0 5%; }
+    padding: 1.5% 5%; }
 
 #header {
   width: 100%;
-  padding: .5% 5%;
+  padding: .8% 5% 0 5%;
   overflow: hidden;
   display: flex;
   font-size: 1.2em; }
@@ -38,7 +38,7 @@ body {
     #header .namewrap .hs-vertical-half:after {
       color: #FF4231; }
     #header .namewrap .hs-vertical-half:before {
-      color: #303030; }
+      color: #FF4231; }
   #header #lastname {
     padding: 0 8px; }
 
@@ -74,7 +74,7 @@ body {
   .slide-container .selector {
     display: inline-block;
     position: absolute;
-    top: 90%;
+    top: 95%;
     right: 50%; }
     .slide-container .selector i {
       font-size: 1.5em;
@@ -147,8 +147,8 @@ body {
   /*start of slide-two*/
   height: 100%; }
   #slide-two .approach {
-    background: -webkit-linear-gradient(right, #FF4231, #E04B3A);
-    background-color: #FF2F31;
+    background: -webkit-linear-gradient(left, #D1D1D1, #D4D4D4);
+    background-color: #D4D4D4;
     width: 45%;
     height: 100%;
     float: left;
@@ -173,8 +173,8 @@ body {
     #slide-two .approach p {
       padding: 7% 0; }
   #slide-two #toolkit {
-    background: -webkit-linear-gradient(left, #3B9DC4, #4C9DC4);
-    background-color: #4C9DC4;
+    background: -webkit-linear-gradient(top, #CAD4EB, #BBCADF);
+    background-color: #1C3366;
     width: 55%; }
     #slide-two #toolkit .halfStyle {
       display: inline;
@@ -187,8 +187,8 @@ body {
       width: 22%;
       margin: 1%;
       float: left;
-      background: -webkit-linear-gradient(left, #D1D1D1, #D4D4D4);
-      background-color: #D4D4D4;
+      background: -webkit-linear-gradient(#F7F7F7, #EDEDED);
+      background-color: #EDEDED;
       text-align: center;
       border: 2px solid #383838;
       border-radius: 3px;
@@ -203,8 +203,8 @@ body {
 
 /*end of slide-two*/
 #slide-three {
-  background: -webkit-linear-gradient(top, #82A6C8, #91A6C8);
-  background-color: #1C3366; }
+  background: -webkit-linear-gradient(left, #D1D1D1, #D4D4D4);
+  background-color: #D4D4D4; }
   #slide-three .leftmain-picture {
     right: 0;
     background: url("../images/contact.jpg");
@@ -244,7 +244,7 @@ body {
 
 /*end of slide three*/
 .contacts {
-  width: 60%;
+  width: 55%;
   text-align: center; }
   .contacts a {
     width: 100%;
@@ -268,7 +268,7 @@ body {
   background: -webkit-linear-gradient(top, #F7F7F7, #EDEDED 50%, #D1D1D1, #D4D4D4 50%);
   background-color: #EDEDED;
   width: 100%;
-  height: 210%;
+  height: 190%;
   top: 100%;
   position: relative; }
   .main-content .padded-container {
@@ -279,7 +279,7 @@ body {
     display: inline-block; }
   .main-content .portfolio-wrap {
     width: 100%;
-    height: 32.5%;
+    height: 35%;
     margin-top: 5%; }
   .main-content .site-wrap {
     width: 28%;
@@ -342,7 +342,7 @@ body {
     top: -100%; }
   .main-content .profile {
     width: 30%;
-    height: 36%;
+    height: 38%;
     margin: 3% 8% 0 0;
     display: inline-block;
     float: left; }
@@ -392,7 +392,7 @@ body {
       background-size: cover; }
   .main-content .contacts {
     width: 38%;
-    margin: 24% 0;
+    margin: 20% 0;
     float: left;
     text-align: center; }
   .main-content footer {
